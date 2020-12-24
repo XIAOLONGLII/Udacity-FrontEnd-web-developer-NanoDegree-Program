@@ -1,0 +1,36 @@
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    /* line-height: 200px; */
+    top: 50%;
+    width: 100%;    
+    background-color: bisque;
+}
+#copyright {
+    text-align:center;
+}
+.fa {
+    padding: 20px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 10%;
+ }
+ .fa:hover {
+    opacity: 0.5;
+ }
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }

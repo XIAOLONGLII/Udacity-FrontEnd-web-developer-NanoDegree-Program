@@ -1,0 +1,29 @@
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+}
+li {
+    display: inline-flexbox;
+    color: black;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+}
+li:hover {
+    background-color: green;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 100px;
+}

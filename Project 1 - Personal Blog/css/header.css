@@ -1,0 +1,16 @@
+.title {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+.header {
+    /* grid-area: hd; */
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    line-height: 200px;
+    top: 50%;
+    width: 100%;    
+    font-size: 80px;
+    background-color: #017a9b;
+    color: white;
+}

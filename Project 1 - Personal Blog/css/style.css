@@ -1,3 +1,8 @@
+@import 'button.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'img.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 @media(max-width:600px){
     .container{
         display: grid;
@@ -26,6 +31,7 @@
     /* margin: 20px; */
     width: 350px;
     height: 300px;
+    background-color: aquamarine;
 }
  /* Dec 20, 2020: ellipsis to multi-line text starts: https://stackoverflow.com/questions/33058004/applying-an-ellipsis-to-multiline-text */
 .block-with-text {
@@ -54,91 +60,9 @@
   }
 /* ellipsis to multi-line text end */
 
-.header {
-    /* grid-area: hd; */
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    line-height: 200px;
-    top: 50%;
-    width: 100%;    
-    font-size: 80px;
-    background-color: #017a9b;
-    color: white;
-}
 .right {
     float: right;
 }
-.btn {
-    cursor: pointer;
-    border: 1px solid beige;
-    background: burlywood;
-    border-radius: 8px;
-    width: auto;
-    /* animate and time the transitions*/
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-}
-.footer {
-    text-align: center;
-    padding: 10px;
-    margin: 20px;
-    /* line-height: 200px; */
-    top: 50%;
-    width: 100%;    
-    background-color: bisque;
-}
-.photobox{
-    width: 350px;
-    height: 150px;
-    border: 1px solid red;
-    background: yellow;
-}
-#one {
-    background-image: url('../img/cat.jpg');
-    background-size: cover;
-}
-#two {
-    background-image: url('../img/cat.jpg');
-    background-size: cover;
-}
-#three {
-    background-image: url('../img/cat.jpg');
-    background-size: cover;
-}
-#four {
-    background-image: url('../img/cat.jpg');
-    background-size: cover;
-}
-
-/* 框架然后有个title，title和框架粘在一起！*/
-/* .fieldset {
-    border: 1px solid grey; 
-
-}
-.legend {
-    border: none;
-    padding: 0;
-    box-shadow: 5px 5px;
-    cursor: pointer;
-}
-*/
-
-/* button {
-    border:none;
-    padding: 10px;
-    vertical-align: top;
-    border-radius:3px;
-    cursor: pointer;
-} 
-/* button 有按下去的感觉 */
-/*
-button:active {
-    box-shadow: 0 0 0 white;
-    margin: 6px 10px 2px 10px;
-} */
-
 @media(min-width: 600px) and (max-width: 800px){
     .container{
     display: grid;
@@ -168,9 +92,4 @@ button:active {
     "main main main"
     "ft ft ft";
    }
-}
-
-.title {
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
 }

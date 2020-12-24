@@ -1,0 +1,11 @@
+.btn {
+    cursor: pointer;
+    border: 1px solid beige;
+    background: burlywood;
+    border-radius: 8px;
+    width: auto;
+    /* animate and time the transitions*/
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
