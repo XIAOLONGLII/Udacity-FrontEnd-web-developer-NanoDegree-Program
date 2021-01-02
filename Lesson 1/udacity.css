@@ -1,0 +1,149 @@
+@media(max-width:600px){
+.container{
+    display: grid;
+    grid-template-columns: 35vh;
+    grid-gap: 100px;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    background-color: beige;
+    border: 1px solid grey; 
+    grid-template-areas: 
+    "hd"
+    "main"
+    "ft";
+}
+}
+.box {
+    /* display: inline-block;  */
+    padding-top : 1px;
+    padding-left : 16px;
+    padding-right : 16px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid grey; 
+    /* justify-content: center; */
+    /* margin: 20px; */
+    width: 350px;
+    height: 300px;
+}
+ /* Dec 20, 2020: ellipsis to multi-line text starts: https://stackoverflow.com/questions/33058004/applying-an-ellipsis-to-multiline-text */
+.block-with-text {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.2em;
+    max-height: 9.5em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+  }
+  .block-with-text:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .block-with-text:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }
+/* ellipsis to multi-line text end */
+
+.header {
+    /* grid-area: hd; */
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    line-height: 200px;
+    top: 50%;
+    width: 100%;    
+    font-size: 80px;
+    background-color: bisque;
+}
+.right {
+    float: right;
+}
+.btn {
+    cursor: pointer;
+    border: 1px solid lightgreen;
+    background: burlywood;
+    border-radius: 8px;
+    width: 40px;
+    /* animate and time the transitions*/
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    /* line-height: 200px; */
+    top: 50%;
+    width: 100%;    
+    background-color: bisque;
+}
+
+/* 框架然后有个title，title和框架粘在一起！*/
+/* .fieldset {
+    border: 1px solid grey; 
+
+}
+.legend {
+    border: none;
+    padding: 0;
+    box-shadow: 5px 5px;
+    cursor: pointer;
+}
+*/
+
+/* button {
+    border:none;
+    padding: 10px;
+    vertical-align: top;
+    border-radius:3px;
+    cursor: pointer;
+} 
+/* button 有按下去的感觉 */
+/*
+button:active {
+    box-shadow: 0 0 0 white;
+    margin: 6px 10px 2px 10px;
+} */
+
+@media(min-width: 600px) and (max-width: 800px){
+    .container{
+    display: grid;
+    grid-template-columns: 35vh 35vh;
+    grid-gap: 100px;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    background-color: beige;
+    grid-template-areas: 
+    "hd hd"
+    "main main"
+    "ft ft";
+   }
+}
+@media(min-width:800px){
+    .container{
+    display: grid;
+    grid-template-columns: 35vh 35vh 35vh;
+    grid-gap: 100px;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    background-color: beige;
+    grid-template-areas: 
+    "hd hd hd"
+    "main main main"
+    "ft ft ft";
+   }
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+          .container {
+            display: flex;
+          }
+
+            .box {
+              width: 200px;
+               height: 200px;
+              position: absolute;
+            }
+            
+            #one {
+              background: red;
+              top: 100px;
+              left: 150px;
+              z-index: 1;
+              font-size: 1.5em;
+            }
+            
+            #two {
+              background: yellow;
+              top: 80px;
+              left: 100px;
+              z-index: 0;
+              font-size: 0.5em;
+            }
+            </style>
+    </head>
+
+        
+        <body>
+            <div class = "container" >
+            <div id="one" class ="box"> Box One </div>
+            <div id="two" class ="box"> Box Two </div>
+            <div id="three" class ="box"> Box Three </div>
+        </div>
+        </body>
+</html>
